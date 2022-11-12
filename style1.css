@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(118, 80, 4);
+    padding: 30px;
+}
+
+.left {
+    float: left;
+    font-size: 20px;
+    width: 20%;
+}
+
+.right {
+    float: left;
+    width: 80%;
+}
+
+.text {
+    float: left;
+}
+
+.topnav a {
+    float: left;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: auto;
+    border: black;
+}
+
+.col1 {
+    width: 20%;
+    float: left;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    border: 0.25mm;
+    border: black;
+    background-color: rgba(226, 154, 10, 0.625);
+}
+
+.row1-col1 {
+    width: 100%;
+}
+
+.row2-col1 {
+    width: 100%;
+}
+
+.row3-col1 {
+    width: 100%;
+    background-color: rgb(233, 233, 139);
+}
+
+.col2 {
+    float: left;
+    width: 60%;
+    background-color: rgb(233, 233, 139);
+}
+
+.col2 p {
+    text-align: left;
+    font-size: 15px;
+}
+
+.col1-col2 {
+    float: left;
+    width: 33.33%;
+}
+
+.col2-col2 {
+    float: left;
+    width: 33.33%;
+}
+
+.col3-col2 {
+    float: left;
+    width: 33.33%;
+}
+
+.img {
+    width: 98%;
+    float: left;
+}
+
+.col3 {
+    float: left;
+    width: 20%;
+    background-color: rgb(233, 233, 139);
+}
+
+.col3 img {
+    height: 50%;
+}
+
+.btn-group {
+    float: right;
+}
+
+.footer {
+    background-color: rgb(118, 80, 4);
+    float: left;
+    width: 100%;
+}
+
+.foot {
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 30px;
+}
+
+.abc {
+    padding-left: 45%;
+    width: 100%;
+    float: left;
+}
+
+.abc a {
+    float: left;
+}
